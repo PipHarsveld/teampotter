@@ -11,10 +11,11 @@ li:nth-child(2) {
     position: relative;
     filter: contrast(25000%);
     overflow: hidden;
-    transform: translateZ(0); /* force a HW accelerated layer */
+    transform: translateZ(0);
+    /* force a HW accelerated layer */
 }
 
-li:nth-child(2) > img {
+li:nth-child(2)>img {
     filter: brightness(0.5) blur(4px);
     animation: 10s animation-filter infinite alternate;
     height: 40em;
